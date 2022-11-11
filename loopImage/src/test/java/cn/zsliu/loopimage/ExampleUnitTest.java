@@ -1,6 +1,6 @@
-package com.zsliu.baselib;
+package cn.zsliu.loopimage;
 
-import org.jun.Test;
+import org.junit.Test;
 
 import static org.junit.Assert.*;
 

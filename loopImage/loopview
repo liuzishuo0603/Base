@@ -1,0 +1,16 @@
+1.首先需要依赖一下
+     implementation 'com.github.bumptech.glide:glide:4.13.2'
+     annotationProcessor 'com.github.bumptech.glide:compiler:4.13.2'
+2. <cn.zsliu.loopimage.LoopView
+          android:id="@+id/loopview"
+          android:layout_width="match_parent"
+          android:layout_height="250dp"
+          android:layout_alignParentBottom="true"
+          android:orientation="horizontal"
+          android:overScrollMode="never"
+          android:scrollbars="none"
+          app:lv_isAutomatic="false"
+          app:lv_isShowAbout="true" />
+3.add 添加数据
+4.如自动轮询需要在onResume 和 onPause调用如下方法
+mLoopview.start();  mLoopview.stop();

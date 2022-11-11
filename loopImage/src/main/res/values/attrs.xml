@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="LoopView">
+        <!--是否显示按钮-->
+        <attr name="lv_isShowAbout" format="boolean" />
+        <!--是否自动-->
+        <attr name="lv_isAutomatic" format="boolean" />
+        <!--自动循环时间-->
+        <attr name="lv_isAutomaticTime" format="integer" />
+        <!--是否循环-->
+        <attr name="lv_isLoop" format="boolean" />
+        <!--左侧图片-->
+        <attr name="lv_leftImage" format="reference" />
+        <!--左侧背景或颜色-->
+        <attr name="lv_leftBackground" format="reference|color" />
+        <!--左侧宽高-->
+        <attr name="lv_leftWidth" format="dimension" />
+        <attr name="lv_leftHeight" format="dimension" />
+        <!--右侧图片-->
+        <attr name="lv_rightImage" format="reference" />
+        <!--右侧背景或颜色-->
+        <attr name="lv_rightBackground" format="reference|color" />
+        <!--右侧宽高-->
+        <attr name="lv_rightWidth" format="dimension" />
+        <attr name="lv_rightHeight" format="dimension" />
+        <attr name="android:orientation" format="integer" />
+        <!--按钮距离-->
+        <attr name="lv_distance" format="dimension" />
+        <!--图片背景间距-->
+        <attr name="lv_padding" format="dimension" />
+    </declare-styleable>
+</resources>
